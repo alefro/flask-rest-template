@@ -1,0 +1,6 @@
+DEBUG    [2017-01-12 08:43:47,412]  * Start Flask server.
+DEBUG    [2017-01-12 08:44:06,849]  * Sending message of length 1300 to http://54.202.207.101/api/3/store/
+DEBUG    [2017-01-12 08:44:06,909]  * Sending message of length 3427 to http://54.202.207.101/api/3/store/
+DEBUG    [2017-01-12 08:44:06,919]  * Sending message of length 4902 to http://54.202.207.101/api/3/store/
+DEBUG    [2017-01-12 08:45:04,129]  * Start Flask server.
+DEBUG    [2017-01-12 08:45:07,855]  * Sending message of length 2583 to http://54.202.207.101/api/3/store/
