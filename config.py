@@ -17,13 +17,13 @@ GUNICORN_WORKERS = 1 + 2 * multiprocessing.cpu_count()
 
 class DevConfig:
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'postgresq://'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 
 class ProdConfig:
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'postgresql://'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 CONFIG = DevConfig
